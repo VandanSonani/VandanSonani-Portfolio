@@ -16,5 +16,8 @@
     "svelte-check": "^4.1.6",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@fontsource/titillium-web": "^5.2.6"
   }
 }

@@ -1,7 +1,7 @@
 <script>
-    let frontend = "Front end developer";
-    let backend = "Back end developer";
-    let software = "Software engineer";
+    import '@fontsource/titillium-web';
+
+
 
     let typedChars = "";
     let phrase = ["Front-End Developer 🖥️", "Back-End Developer 🖥️", "Software Engineer 🖥️"];
@@ -89,6 +89,21 @@
                 <svg viewBox="50 -10 510 500" height="37" width="40" xmlns="http://www.w3.org/2000/svg" class="resume-icon">
                     <path d="M288 48H136c-22.092 0-40 17.908-40 40v336c0 22.092 17.908 40 40 40h240c22.092 0 40-17.908 40-40V176L288 48zm-16 144V80l112 112H272z"></path></svg>
             </a>
+
+
+            <p class="extra-info-section">
+
+                <span class="text">
+                    <svg class="age-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M712 304c0 4.4-3.6 8-8 8h-56c-4.4 0-8-3.6-8-8v-48H384v48c0 4.4-3.6 8-8 8h-56c-4.4 0-8-3.6-8-8v-48H184v136h656V256H712v48z"></path><path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zm0-448H184V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136z"></path></svg>
+                    21 yrs
+                </span>
+
+                <span class="text">
+                    <svg class="location-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg>
+                    Chicago, Illinois
+                </span>
+
+            </p>
         </div>
     </div>
 
@@ -101,6 +116,25 @@
 
 <style>
 
+
+    .extra-info-section{
+
+        gap: 30px;
+        display: flex;
+    }
+
+    .age-icon{
+        vertical-align: middle;
+    }
+
+    .location-icon{
+        vertical-align: middle;
+    }
+
+    .text{
+        color: black;
+
+    }
 
     .social{
         padding-top: 10px;
@@ -129,6 +163,8 @@
     .description{
         color: #000000;
         max-width: 50rem;
+        font-family: 'Titillium Web', sans-serif;
+
     }
 
     .special{

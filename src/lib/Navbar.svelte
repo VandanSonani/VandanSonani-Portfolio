@@ -70,10 +70,6 @@
             gap: 15px;
         }
 
-        .links.active {
-            display: flex;
-        }
-
 
 
     }

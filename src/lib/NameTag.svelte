@@ -18,9 +18,7 @@
 
 
 <style>
- .name-container{
 
- }
 
 .mini-picture{
     display: flex;
