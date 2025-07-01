@@ -2,14 +2,20 @@
     import Navbar from "./lib/Navbar.svelte";
     import NameTag from "./lib/NameTag.svelte";
     import Description from "./lib/Description.svelte";
+    import Resume from "./lib/Resume.svelte";
 </script>
 
 <main>
-        <div class="top-site">
-            <NameTag/>
-            <Navbar/>
-        </div>
-    <Description/>
+    <div class="top-site">
+        <NameTag/>
+        <Navbar/>
+    </div>
+    <div class="description-holder">
+        <Description/>
+    </div>
+    <div class="botton-site">
+        <Resume/>
+    </div>
 </main>
 
 <style>

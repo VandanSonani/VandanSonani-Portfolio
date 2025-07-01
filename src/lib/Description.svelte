@@ -1,5 +1,6 @@
 <script>
-    import '@fontsource/titillium-web';
+    import '@fontsource/titillium-web/200.css';
+
 
 
 
@@ -60,7 +61,8 @@
 
 
             <span class="writing">
-            {typedChars}<div class = "type-cursor">|
+                <div>{typedChars}</div>
+                <div class = "type-cursor">|
             </div>
             </span>
 
@@ -163,12 +165,12 @@
     .description{
         color: #000000;
         max-width: 50rem;
-        font-family: 'Titillium Web', sans-serif;
+
 
     }
 
     .special{
-        font-weight: bolder;
+        font-weight: 900;
         background: linear-gradient(0.25turn, #cb997e, #6b705c);
         background-clip: border-box;
         -webkit-background-clip: text;
@@ -197,10 +199,12 @@
     .writing{
         font-size: xx-large;
         color: #000000;
-        font-weight: bolder;
         align-content: center;
         display: flex;
         width: 25rem;
+        font-weight: bolder;
+
+
     }
 
     .type-cursor{
