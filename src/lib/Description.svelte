@@ -110,7 +110,7 @@
     </div>
 
     <div class="pic">
-        <img src="https://ucbcb883491658fb8a508be25cb8.previews.dropboxusercontent.com/p/thumb/ACpUOEU47MuNGxYgCRNJW1CMFCF98GtgCQRPnECw60VHpmoTL_nQ222Jn9UF0wwrG8k7duwG7bxUybqrd_GpseJb594__wWsZOeWHS7PSfPtXW4vJ6V5aWreJLbZJ8UrF6z71uEvI2smFG3qpv1p7hNT8WduwPEeaoE5dI0Ies4dsLcerTsJpn8OCBW5vNlHAxhqq5-nV_Xe3WaEHjIv69-Xn5g3SFMtJLHrHBitXGBmx6gLR8ITWoorISs02ciXAieG4HJ6mOGE9flAFMcD01Se6N_V8VlF4gWq5X5UuqcJLAu355h8nBLmzq_WUDUz7AGbDxNYVjboEKQ49kwH3s6rDay2h0vojqTINLrwB719XMgzRhGfnWazdwYpYM1GrSc/p.jpeg?is_prewarmed=true" alt = "pic" height="480px" width="400px"/>
+        <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/67400593_919274305083077_3341480609213054976_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=0axYxmukw50Q7kNvwGLkcP0&_nc_oc=Adni2Uvv3nRrv5rQaHWEkJbuN9sqDV2kunnYWcfDwPobwYpSEKXa6VsUUBuj9uopCOs&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sPG4gUxjRJijcHkAIzyOqQ&oh=00_AfP-fgAimRAIR1FoZ4bRVq0RPLFp521E_vImqd5AO_Uf-w&oe=688D2E53" alt = "pic" height="480px" width="400px"/>
 
     </div>
 

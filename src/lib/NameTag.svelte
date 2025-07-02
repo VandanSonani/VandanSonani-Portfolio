@@ -11,7 +11,7 @@
         </h3>
     </div>
     <div class="tag">
-        Software Engineer
+        Full Stack Developer
     </div>
 
 </div>
