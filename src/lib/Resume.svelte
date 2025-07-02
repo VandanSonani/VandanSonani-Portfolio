@@ -11,23 +11,32 @@
                 💼 EXPERIENCE
             </h4>
             <div class="card">
-                <h3>
+                <div class="title">
                     Consulting Intern
-                </h3>
-                <div>
+                </div>
+                <div class="company">
                     Driving Forward
                 </div>
-                <div>
+                <div class="date">
                     Jan. 2023 - March 2023
                 </div>
             </div>
             <div class="padding"/>
             <div class="card">
-
+                <div class="title">
+                    Sales Representative
+                </div>
+                <div class="company">
+                    JetBrite
+                </div>
+                <div class="date">
+                    Jun. 2022 - Sept. 2022
+                </div>
             </div>
         </section>
-
     </div>
+
+    <hr class="divider"/>
 
 
     <div class="container">
@@ -57,6 +66,7 @@
     .section-header{
         color: #1a1a1a;
         font-weight: bolder;
+        font-size: 19px;
     }
 
     .experience{
@@ -76,7 +86,32 @@
     }
 
     .padding{
-        padding: 7px;
+        padding: 6px;
+    }
+
+    .title{
+        width: 489px;
+        font-size: 17px;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .company{
+        width: 489px;
+        color: #6b705c;
+        font-weight: normal;
+    }
+
+    .date{
+        width: 489px;
+        font-weight: lighter;
+        color: #1a1a1a;
+    }
+
+    .divider{
+        /*padding: 24px 0px 0px;*/
+        /*margin: 24px 0px 16px;*/
+
     }
 
 </style>

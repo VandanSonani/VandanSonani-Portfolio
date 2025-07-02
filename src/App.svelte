@@ -13,7 +13,7 @@
     <div class="description-holder">
         <Description/>
     </div>
-    <div class="botton-site">
+    <div>
         <Resume/>
     </div>
 </main>
