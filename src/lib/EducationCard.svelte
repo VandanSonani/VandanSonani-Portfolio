@@ -1,16 +1,16 @@
 <script>
 
-    let { title, company, date } = $props();
+    let { major, university, date } = $props();
 
 </script>
 
 <div class="card">
 
-    <div class="title">
-        {title}
+    <div class="major">
+        {major}
     </div>
-    <div class="company">
-        {company}
+    <div class="university">
+        {university}
     </div>
     <div class="date">
         {date}
@@ -21,6 +21,7 @@
 <style>
 
     .card{
+        width: 508px;
         background: #d8cec3;
         padding: 16px;
         border-radius: 6px;
@@ -29,8 +30,8 @@
 
     @media(max-width: 750px) {
         .card,
-        .title,
-        .company,
+        .major,
+        .university,
         .date
         {
             width: 400px ;
@@ -39,7 +40,4 @@
             word-break: break-word;
         }
     }
-
-
-
-</style>
+    </style>
