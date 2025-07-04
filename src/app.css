@@ -36,3 +36,22 @@ h3{
   color: #1a1a1a;
 }
 
+.title{
+  width: 699px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: black;
+}
+
+.company{
+  width: 699px;
+  color: #6b705c;
+  font-weight: normal;
+}
+
+.date{
+  width: 699px;
+  font-weight: lighter;
+  color: #1a1a1a;
+}
+

@@ -216,4 +216,22 @@
         50% {opacity: 0;}
     }
 
+    @media (max-width: 1050px){
+        .container{
+            flex-direction: column;
+            align-items: center;
+            padding: 0 1rem;
+        }
+        .pic{
+            padding: 2rem 0 0 0;
+        }
+
+        .writing{
+            width: 100%;
+            font-size: x-large;
+        }
+    }
+
+
+
 </style>
