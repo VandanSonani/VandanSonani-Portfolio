@@ -28,9 +28,9 @@
         </div>
 
 
-        <a class="project-link" href={link}>
-            View Project
-        </a>
+<!--        <a class="project-link" href={link}>-->
+<!--            View Project-->
+<!--        </a>-->
 
     </div>
 
@@ -41,22 +41,22 @@
 
 <style>
 
-    .project-link{
-        display: flex;
-        flex-wrap: wrap;
+    /*.project-link{*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
 
 
-        background: #cb997e;
-        font-size: x-small;
-        padding: 1px 1px 1px;
-        height: auto;
-        color: white;
-    }
+    /*    background: #cb997e;*/
+    /*    font-size: x-small;*/
+    /*    padding: 1px 1px 1px;*/
+    /*    height: auto;*/
+    /*    color: white;*/
+    /*}*/
 
-    .project-link:hover{
-        background: #c6a89c;
-        transition-duration: 0.5s;
-    }
+    /*.project-link:hover{*/
+    /*    background: #c6a89c;*/
+    /*    transition-duration: 0.5s;*/
+    /*}*/
 
     .card{
         display: flex;
@@ -104,17 +104,6 @@
         color: black;
     }
 
-    @media(max-width: 750px) {
-        .card,
-        .title,
-        .date
-        {
-            width: 400px ;
-            max-width: 100% ;
-            box-sizing: border-box;
-            word-break: break-word;
-        }
-    }
 
     .space{
         margin: 6px 0 6px;
@@ -122,6 +111,20 @@
         border-top: 1px solid #8c8b8b;
         width: 699px;
         align-content: center;
+    }
+
+    @media(max-width: 750px) {
+        .card,
+        .card-body-left,
+        .title,
+        .date,
+        .description,
+        .space {
+            width: 400px ;
+            max-width: 100% ;
+            box-sizing: border-box;
+            word-break: break-word;
+        }
     }
 
 

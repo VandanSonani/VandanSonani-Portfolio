@@ -232,6 +232,21 @@
         }
     }
 
+    @media(max-width: 720px){
+
+        .title{
+            max-width: 350px;
+        }
+
+        .bio{
+            max-width: 350px;
+        }
+        .description{
+            width: 350px;
+        }
+
+    }
+
 
 
 </style>

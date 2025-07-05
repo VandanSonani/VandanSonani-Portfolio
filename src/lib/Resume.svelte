@@ -10,7 +10,7 @@ import ProjectCard from "./ProjectCard.svelte";
 <div class="holder">
     <div class="container">
 
-        <section class="experience">
+        <section class="experience" id="experience">
             <h4 class="section-header">
                 💼 EXPERIENCE
             </h4>
@@ -22,7 +22,7 @@ import ProjectCard from "./ProjectCard.svelte";
 
         <hr class="divider"/>
 
-        <section class="projects">
+        <section class="projects" id="projects">
             <h4 class="section-header">
                 💻 Projects
             </h4>
@@ -46,10 +46,9 @@ import ProjectCard from "./ProjectCard.svelte";
                         elements and Tailwind CSS for modern styling." description2="Integrated the use of third-party APIs to dynamically display Spotify and discord content based on real-
                         time data, such as songs and availability providing a personalized user experience." skills={["Svelte", "Front End Development"]}
                         link="https://github.com/VandanSonani/VandanSonani-Portfolio"/>
+
         </section>
-
-
-
+        <hr class="divider"/>
     </div>
 
 
@@ -66,7 +65,7 @@ import ProjectCard from "./ProjectCard.svelte";
 
         <hr class="divider" />
 
-        <section class="education">
+        <section class="education" id="education">
             <h4 class="section-header">
                 🎓 Education
             </h4>
@@ -80,6 +79,9 @@ import ProjectCard from "./ProjectCard.svelte";
 </div>
 
 <style>
+
+
+
 
     .card-container{
         display: flex;
@@ -118,13 +120,17 @@ import ProjectCard from "./ProjectCard.svelte";
 
     }
 
+    .padding{
+        padding: 10px;
+    }
+
 
 
 
 
 
     .divider{
-        margin: 24px 0px 16px;
+        margin: 24px 0 16px;
         border: none;
         border-top: 1px solid #8c8b8b;
         width: 489px;
@@ -138,22 +144,6 @@ import ProjectCard from "./ProjectCard.svelte";
             align-items: center;
             padding: 0 1rem;
 
-        }
-    }
-
-    @media(max-width: 750px) {
-        .card,
-        .card-body-left,
-        .card-body-right,
-        .title,
-        .company,
-        .date,
-        .description,
-        .space {
-            width: 400px ;
-            max-width: 100% ;
-            box-sizing: border-box;
-            word-break: break-word;
         }
     }
 

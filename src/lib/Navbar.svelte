@@ -2,23 +2,32 @@
 <script>
 
     import NavItem from "./NavItem.svelte";
+
+    let show = false;
+
+    function handleClick(){
+        show = !show;
+        if(show === !show){
+            show = true
+        }
+    }
+
 </script>
 
 
 <nav class="navbar">
 
-    <a href="/#" class="toggle-button" aria-label="x">
+    <button on:click={handleClick} class="toggle-button" class:show aria-label="x">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-    </a>
+    </button>
 
     <div class="container-fluid">
-        <div class="links">
+        <div class="links" class:show={show}>
             <NavItem text="💼 Experience" path="/#experience"/>
             <NavItem text="🎓 Education" path="/#education"/>
             <NavItem text="💻 Projects" path="/#projects"/>
-            <NavItem text="📞 Contact Me" path="/#contact"/>
         </div>
     </div>
 
@@ -63,8 +72,14 @@
             display: flex;
         }
 
+
+
         .links{
             display: none;
+
+        }
+        .links.show{
+            display: flex;
             flex-direction: column;
             margin-top: 60px;
             gap: 15px;

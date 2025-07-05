@@ -36,6 +36,11 @@ h3{
   color: #1a1a1a;
 }
 
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .title,
 .major{
   width: 699px;
