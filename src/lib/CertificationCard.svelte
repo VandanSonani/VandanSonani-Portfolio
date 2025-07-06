@@ -73,7 +73,8 @@
         .card,
         .location,
         .link,
-        .date
+        .date,
+        .certificate
         {
             width: 400px ;
             max-width: 100% ;

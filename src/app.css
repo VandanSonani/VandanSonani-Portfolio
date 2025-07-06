@@ -46,6 +46,7 @@ h3{
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+  display: flex;
 }
 
 .title,

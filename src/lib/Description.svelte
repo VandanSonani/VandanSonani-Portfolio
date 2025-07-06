@@ -249,6 +249,7 @@
 
         .title{
             max-width: 350px;
+            margin-top: 1rem;
         }
 
         .bio{
