@@ -4,6 +4,7 @@ import ExperienceCard from "./ExperienceCard.svelte";
 import EducationCard from "./EducationCard.svelte";
 import SkillsCard from "./SkillsCard.svelte";
 import ProjectCard from "./ProjectCard.svelte";
+import CertificationCard from "./CertificationCard.svelte";
 
 </script>
 
@@ -75,6 +76,15 @@ import ProjectCard from "./ProjectCard.svelte";
         </section>
 
         <hr class="divider"/>
+
+        <section class="certifications" id="certification">
+            <h4 class="section-header">
+                📃 Certifications
+            </h4>
+
+
+            <CertificationCard certificate="AWS Certified Developer – Associate" date="Issued Jul 2020 — Expired Jul 2020" location="AWS Services" link="/"/>
+        </section>
     </div>
 </div>
 

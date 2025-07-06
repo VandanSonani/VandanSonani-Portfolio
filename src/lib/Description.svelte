@@ -144,18 +144,31 @@
 
     .github-icon:hover{
         fill: #838383;
-        transition-duration: .5s;
     }
+
+    .github-icon{
+        transition: 0.5s ease-in-out;
+    }
+
 
     .linkedin-icon:hover{
         fill: #569bff;
-        transition-duration: .5s;
+
+    }
+
+    .linkedin-icon{
+        transition: 0.5s ease-in-out;
     }
 
     .resume-icon:hover{
         fill: #9a9a03;
-        transition-duration: .5s;
+
     }
+
+    .resume-icon{
+        transition: 0.5s ease-in-out;
+    }
+
 
     .pic{
         padding: 0 5rem 0 5rem;

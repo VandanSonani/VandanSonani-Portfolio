@@ -15,13 +15,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 700;
-  color: #6b705c;
-  text-decoration: inherit;
+
+
+.badge{
+  transition: 0.5s ease-in-out;
 }
-a:hover {
-  color: #cb997e;
+
+.card:hover{
+  .badge{
+    background: rgba(255, 255, 255, 0.31);
+  }
+  background: #ccb8a3 !important;
+}
+.card{
+  transition: background 0.5s ease-in-out;
 }
 
 
@@ -42,7 +49,8 @@ html{
 }
 
 .title,
-.major{
+.major,
+.certificate{
   width: 699px;
   font-size: 17px;
   font-weight: bolder;
@@ -50,7 +58,8 @@ html{
 }
 
 .company,
-.university{
+.university,
+.location{
   width: 699px;
   color: #6b705c;
   font-weight: normal;

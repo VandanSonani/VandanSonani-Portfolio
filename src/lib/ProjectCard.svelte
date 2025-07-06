@@ -85,10 +85,10 @@
     }
 
     .badge-container{
+        margin-top: 1rem;
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
-        margin-bottom: 30px;
     }
 
     .card-body-left{
