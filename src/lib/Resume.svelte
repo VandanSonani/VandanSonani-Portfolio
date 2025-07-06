@@ -71,7 +71,7 @@ import CertificationCard from "./CertificationCard.svelte";
                 🎓 Education
             </h4>
 
-            <EducationCard university="University of Illinois at Chicago" major="B.S. in Computer Science & Linguistics" date="Aug. 2022 = May 2026 · Chicago, Illinois"/>
+            <EducationCard university="University of Illinois at Chicago" major="B.S. in Computer Science & Linguistics" date="Aug. 2022 - May 2026 · Chicago, Illinois"/>
 
         </section>
 
@@ -83,7 +83,7 @@ import CertificationCard from "./CertificationCard.svelte";
             </h4>
 
 
-            <CertificationCard certificate="AWS Certified Developer – Associate" date="Issued Jul 2020 — Expired Jul 2020" location="AWS Services" link="/"/>
+<!--            <CertificationCard certificate="AWS Certified Developer – Associate" date="Issued Jul 2020 — Expired Jul 2020" location="AWS Services" link="/"/>-->
         </section>
     </div>
 </div>
