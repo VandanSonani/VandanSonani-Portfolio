@@ -83,7 +83,7 @@ import CertificationCard from "./CertificationCard.svelte";
             </h4>
 
 
-<!--            <CertificationCard certificate="AWS Certified Developer – Associate" date="Issued Jul 2020 — Expired Jul 2020" location="AWS Services" link="/"/>-->
+            <CertificationCard certificate="AWS Certified Developer – Associate" date="Issued Jul 2020 — Expired Jul 2020" location="AWS Services" link="/"/>
         </section>
     </div>
 </div>
