@@ -16,12 +16,13 @@
         {date}
     </div>
 
-    <a class="link" href="/">
+    <a class="link" href={link}>
 
         <div>
         Show Credentials
         </div>
-        <img src="/ic_link.svg" alt = "link" class="link-image"/>
+
+        <img class="link-image" width="20" height="20" src="https://img.icons8.com/glyph-neue/64/link.png" alt="link"/>
     </a>
 </div>
 
