@@ -43,9 +43,9 @@ import CertificationCard from "./CertificationCard.svelte";
             <div class="padding"/>
 
 
-            <ProjectCard name="Digital Portfolio" date="Jul. 2025" description="Developed a fully responsive and visually appealing digital portfolio, utilizing JavaScript for interactive
-                        elements and Tailwind CSS for modern styling." description2="Integrated the use of third-party APIs to dynamically display Spotify and discord content based on real-
-                        time data, such as songs and availability providing a personalized user experience." skills={["Svelte", "Front End Development"]}
+            <ProjectCard name="Digital Portfolio" date="Jul. 2025" description="Developed a fully responsive and visually appealing digital portfolio, utilizing Svelte for interactive
+                        elements and CSS for modern styling." description2="Implemented responsive layouts, interactive navigation, and smooth animations using Svelte and CSS. Focused on accessibility and cross-device compatibility to ensure a seamless user experience."
+                         skills={["Svelte", "Front End Development", "Responsive Design", "CSS", "Accessibility", "UI/UX"]}
                         link="https://github.com/VandanSonani/VandanSonani-Portfolio"/>
 
         </section>

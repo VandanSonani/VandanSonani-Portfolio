@@ -99,7 +99,7 @@
     .description{
         margin-top: 30px;
         width: 699px;
-        font-size: x-small;
+        font-size: small;
         font-weight: normal;
         color: black;
     }
