@@ -110,7 +110,7 @@
     </div>
 
     <div class="pic">
-        <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/67400593_919274305083077_3341480609213054976_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=0axYxmukw50Q7kNvwGLkcP0&_nc_oc=Adni2Uvv3nRrv5rQaHWEkJbuN9sqDV2kunnYWcfDwPobwYpSEKXa6VsUUBuj9uopCOs&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sPG4gUxjRJijcHkAIzyOqQ&oh=00_AfP-fgAimRAIR1FoZ4bRVq0RPLFp521E_vImqd5AO_Uf-w&oe=688D2E53" alt = "pic" height="480px" width="400px"/>
+        <img src="src/assets/IMG_0076.png" alt = "pic" height="480px" width="400px"/>
 
     </div>
 
