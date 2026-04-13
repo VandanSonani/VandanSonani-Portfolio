@@ -48,6 +48,9 @@
 
 
     typing();
+
+    import pic from 'public/IMG_0076.png';
+
 </script>
 
 
@@ -110,7 +113,7 @@
     </div>
 
     <div class="pic">
-        <img src="src/assets/IMG_0076.png" alt = "pic" height="480px" width="400px"/>
+        <img src={pic} alt = "pic" height="480px" width="400px"/>
 
     </div>
 
